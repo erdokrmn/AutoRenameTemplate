@@ -11,29 +11,30 @@
 - 🧠 Otomatik olarak tüm `.csproj` dosyalarını yeni `.sln` dosyasına ekler
 - ✅ Sade ve kullanıcı dostu WPF arayüz
 
-## 📸 Ekran Görüntüsü
+## ⚠️ Dikkat
 
-> İsteğe bağlı: `Screenshots/auto-rename-example.png`
+> **Seçilen klasörün ismi, proje ismi ile aynı olmalıdır.**  
+> Uygulama bu klasör adını eski proje ismi olarak kullanır.  
+> Örnek: `C:\Projeler\EskiProje` seçildiğinde `"EskiProje"` eski isim olarak kabul edilir.
+
 
 ## 🚀 Nasıl Kullanılır?
 
 1. Uygulamayı çalıştır.
 2. Ana sayfadaki "📂 Proje Klasörü Seç" butonuna tıkla.
-3. Yeniden adlandırmak istediğin projenin klasörünü seç.
-4. Uygulama otomatik olarak eski proje adını klasör isminden algılar.
-5. Yeni proje adını gir ve "🚀 Yeniden Adlandır" butonuna tıkla.
-6. Hepsi bu kadar 🎉
+3. **Proje klasörünün adının, eski proje ismi olduğundan emin ol.**
+4. Yeni proje adını gir ve "🚀 Yeniden Adlandır" butonuna tıkla.
+5. Uygulama:
+   - `.git` klasörünü siler
+   - klasör adlarını, dosya adlarını ve içeriklerini değiştirir
+   - eski `.sln` varsa siler, yeni `.sln` oluşturur
+   - `.csproj` dosyalarını `.sln` içine ekler
+6. Tüm işlem birkaç saniyede tamamlanır 🎉
 
 ## 📝 Gereksinimler
 
 - .NET Core SDK (5.0+ önerilir)
-- dotnet CLI terminalde erişilebilir olmalı
-
-## 🛡️ Uyarılar
-
-- Seçtiğin proje klasörünün yedeğini alman önerilir.
-- `.sln` dosyası silinir ve baştan oluşturulur — önceki özel yapılandırmalar korunmaz.
-- Tüm işlemler geri alınamaz.
+- `dotnet` CLI terminalde çalışabiliyor olmalı
 
 ## 📦 Derleme
 
