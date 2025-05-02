@@ -1,0 +1,38 @@
+﻿<Window x:Class="AutoRenameTemplate.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Proje Yeniden Adlandırıcı" Height="400" Width="600"
+        ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Klasör Seç -->
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+            <Button x:Name="SelectFolderButton" Content="📂 Proje Klasörü Seç" Width="180" Click="SelectFolderButton_Click"/>
+            <TextBlock x:Name="SelectedFolderPathText" Margin="10,5,0,0" VerticalAlignment="Center" TextWrapping="Wrap"/>
+        </StackPanel>
+
+        <!-- Eski İsim -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,0,0,10">
+            <TextBlock Text="Eski Proje İsmi:" Width="130" VerticalAlignment="Center"/>
+            <TextBlock x:Name="OldProjectNameText" FontWeight="Bold" VerticalAlignment="Center"/>
+        </StackPanel>
+
+        <!-- Yeni İsim -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="0,0,0,10">
+            <TextBlock Text="Yeni Proje İsmi:" Width="130" VerticalAlignment="Center"/>
+            <TextBox x:Name="NewProjectNameBox" Width="200"/>
+            <Button Content="🚀 Yeniden Adlandır" Margin="10,0,0,0" Width="150" Click="RenameButton_Click"/>
+        </StackPanel>
+
+        <!-- Loglar -->
+        <GroupBox Grid.Row="3" Header="İşlem Logları" Margin="0">
+            <ListBox x:Name="LogListBox"/>
+        </GroupBox>
+    </Grid>
+</Window>

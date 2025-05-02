@@ -1,0 +1,14 @@
+C:\Users\erdo\source\repos\AutoRenameTemplate\AutoRenameTemplate\obj\Debug\AutoRenameTemplate.csproj.AssemblyReference.cache
+C:\Users\erdo\source\repos\AutoRenameTemplate\AutoRenameTemplate\obj\Debug\MainWindow.baml
+C:\Users\erdo\source\repos\AutoRenameTemplate\AutoRenameTemplate\obj\Debug\MainWindow.g.cs
+C:\Users\erdo\source\repos\AutoRenameTemplate\AutoRenameTemplate\obj\Debug\App.g.cs
+C:\Users\erdo\source\repos\AutoRenameTemplate\AutoRenameTemplate\obj\Debug\AutoRenameTemplate_MarkupCompile.cache
+C:\Users\erdo\source\repos\AutoRenameTemplate\AutoRenameTemplate\obj\Debug\AutoRenameTemplate.g.resources
+C:\Users\erdo\source\repos\AutoRenameTemplate\AutoRenameTemplate\obj\Debug\AutoRenameTemplate.Properties.Resources.resources
+C:\Users\erdo\source\repos\AutoRenameTemplate\AutoRenameTemplate\obj\Debug\AutoRenameTemplate.csproj.GenerateResource.cache
+C:\Users\erdo\source\repos\AutoRenameTemplate\AutoRenameTemplate\obj\Debug\AutoRenameTemplate.csproj.CoreCompileInputs.cache
+C:\Users\erdo\source\repos\AutoRenameTemplate\AutoRenameTemplate\bin\Debug\AutoRenameTemplate.exe.config
+C:\Users\erdo\source\repos\AutoRenameTemplate\AutoRenameTemplate\bin\Debug\AutoRenameTemplate.exe
+C:\Users\erdo\source\repos\AutoRenameTemplate\AutoRenameTemplate\bin\Debug\AutoRenameTemplate.pdb
+C:\Users\erdo\source\repos\AutoRenameTemplate\AutoRenameTemplate\obj\Debug\AutoRenameTemplate.exe
+C:\Users\erdo\source\repos\AutoRenameTemplate\AutoRenameTemplate\obj\Debug\AutoRenameTemplate.pdb
